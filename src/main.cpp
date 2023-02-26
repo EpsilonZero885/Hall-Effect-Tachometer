@@ -2,7 +2,7 @@
 #include <Arduino.h>
 /* 
 Fix me! 
-Try using pin2 and a hardware interrupt to read the hall sensor inputs
+Try using a hardware interrupt to read the hall sensor inputs
 */
 
 /* Global Variables */
