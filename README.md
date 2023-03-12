@@ -5,6 +5,9 @@ Arduino program for measuring the rpm of an unidentified DC motor using a hall e
 For this project a custom mount was created in Fusion360 and 3D printed. 
 Any mount may be used such that the rotation of the motor shaft causes a magnet to concentrically move about a central axis and trigger a hall sensor
 
+v2 Update Notes: 
+Changed the pinouts and code to use a hardware interrupt for reading hall triggers
+
 Parts:
     Unidentified DC Motor with Worm Drive
     Arduino Nano v3
@@ -19,7 +22,7 @@ Pinouts
     DC+             12V         N/C                 N/C         N/C
     DC-             GND         GND                 GND         N/C
     N/C             5V          5V                  +           N/C
-    N/C             N/C         D7                  DO          N/C
+    N/C             N/C         D3                  DO          N/C
     N/C             ENA         N/C                 N/C         N/C
     N/C             IN1         N/C                 N/C         N/C
     N/C             IN2         N/C                 N/C         N/C
