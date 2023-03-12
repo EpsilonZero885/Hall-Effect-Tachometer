@@ -27,7 +27,7 @@ Pinouts
     N/C             IN1         N/C                 N/C         N/C
     N/C             IN2         N/C                 N/C         N/C
     N/C             IN3         D4                  N/C         N/C
-    N/C             IN4         D3                  N/C         N/C
+    N/C             IN4         D5                  N/C         N/C
     N/C             ENB         D9                  N/C         N/C
     N/C             OUT1        N/C                 N/C         N/C
     N/C             OUT2        N/C                 N/C         N/C
